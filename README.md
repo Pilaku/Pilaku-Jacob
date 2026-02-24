@@ -1,1 +1,1 @@
-Html,Css,Javascript,Php
+delete all files in the upload area
