@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">My<span class="logo-accent">Portfolio</span></a>
+            </div>
+
+            <button class="hamburger" id="hamburger-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-list-wrapper" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li class="has-dropdown">
+                        <a href="#skills" class="has-arrow">Skills</a>
+                        <ul class="dropdown">
+                            <li><a href="#skills-frontend">Frontend Development</a></li>
+                            <li><a href="#skills-backend">Backend Development</a></li>
+                            <li><a href="#skills-tools">Tools & Technologies</a></li>
+                            <li><a href="#skills-graphics">Graphics & Video</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#projects" class="has-arrow">Projects</a>
+                        <ul class="dropdown">
+                            <li><a href="#project-ecommerce">E-Commerce Website</a></li>
+                            <li><a href="#project-tasks">Task Management App</a></li>
+                            <li><a href="#project-brand">Brand Identity Design</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-cta">
+                <a href="#contact" class="contact-btn">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm a Web Developer passionate about creating beautiful and functional websites</p>
+        <a href="#projects" class="cta-button">View My Work</a>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hi! I'm a passionate web developer with experience in building responsive and user-friendly websites. I love turning ideas into reality through code and design.</p>
+                <p>With a strong foundation in HTML, CSS, and JavaScript, I create web experiences that users love. I'm also skilled in graphics design and video editing, allowing me to create complete visual content. I'm always learning and staying updated with the latest technologies and trends.</p>
+                <p>When I'm not coding, you can find me exploring new technologies, creating stunning graphics, editing videos, contributing to open source, or sharing knowledge with the community.</p>
+            </div>
+            <div class="about-image">
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 400px; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem;">
+                    <img src="jay1.jpeg" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card" id="skills-frontend">
+                <h3>Frontend Development</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div class="skill-card" id="skills-backend">
+                <h3>Backend Development</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>PHP</li>
+                    <li>Database Design</li>
+                    <li>REST APIs</li>
+                </ul>
+            </div>
+            <div class="skill-card" id="skills-tools">
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Visual Studio Code</li>
+                    <li>Figma</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+            <div class="skill-card" id="skills-graphics">
+                <h3>Graphics Design & Video Editing</h3>
+                <ul>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Premiere Pro</li>
+                    <li>UI/UX Design</li>
+                    <li>Video Production</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" id="project-ecommerce">
+                <div class="project-image">Project 1</div>
+                <div class="project-content">
+                    <h3>E-Commerce Website</h3>
+                    <p>A fully functional e-commerce platform with shopping cart, payment integration, and admin dashboard.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                         <span class="tag">PHP</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" id="project-tasks">
+                <div class="project-image">Project 2</div>
+                <div class="project-content">
+                    <h3>Task Management App</h3>
+                    <p>A React-based application for managing tasks with features like drag-and-drop and real-time updates.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Local Storage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" id="project-brand">
+                <div class="project-image">Project 3</div>
+                <div class="project-content">
+                    <h3>Brand Identity Design</h3>
+                    <p>A comprehensive brand identity project including logo design, color palette, typography, and complete branding guidelines for a modern startup.</p>
+                    <div class="project-tags">
+                        <span class="tag">Adobe Photoshop</span>
+                        <span class="tag">Logo Design</span>
+                        <span class="tag">Branding</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
+        <form class="contact-form" method="POST" action="contact.php">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/tor-jay-2025">LinkedIn</a>
+            <a href="https://github.com/Pilaku">GitHub</a>
+            <a href="https://x.com/PilakuJacob">Twitter</a>
+            <a href="https://www.facebook.com/tor.jay.2025">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
